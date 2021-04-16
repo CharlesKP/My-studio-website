@@ -1,0 +1,534 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.bodyback {
+  opacity: 1;
+}
+
+.studio {
+  position: absolute;
+  top: 52%;
+  right: 0%;
+  border-radius: 5px;
+  width: 650px;
+}
+
+.background {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black)), url("images/stars3.jpg");
+  background: linear-gradient(transparent, black 100%), url("images/stars3.jpg");
+  height: 250px;
+  background-repeat: repeat-x;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), to(transparent)), url("images/stars3.jpg");
+  background-image: linear-gradient(black 10%, transparent), url("images/stars3.jpg");
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.logohome, .logomoving {
+  z-index: 10;
+  opacity: 1;
+  margin-top: 85px;
+  text-align: center;
+  height: 200px;
+}
+
+.logo {
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  opacity: 0.5;
+  margin-top: 85px;
+  text-align: center;
+  height: 190px;
+}
+
+.logo:hover {
+  height: 200px;
+  opacity: 1;
+}
+
+.name {
+  height: 60px;
+}
+
+.fa {
+  opacity: 0.6;
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 25%;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-facebook:hover {
+  opacity: 1;
+  color: #5ea4f0;
+}
+
+.fa-youtube:hover {
+  opacity: 1;
+  color: #d84444;
+}
+
+.fa-instagram:hover {
+  opacity: 1;
+  color: #bd158a;
+}
+
+.section {
+  height: 20px;
+}
+
+.mid {
+  opacity: 1;
+  -webkit-animation: fade 2s linear;
+          animation: fade 2s linear;
+  margin-top: 110px;
+}
+
+.midbot {
+  margin-bottom: 150px;
+}
+
+.midcenter {
+  margin-top: 400px;
+  text-align: center;
+  margin-left: 21%;
+}
+
+.para {
+  text-align: center;
+  position: relative;
+  background: #353535;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#video, #video:hover {
+  position: relative;
+  margin-top: 80px;
+  opacity: 0.6;
+}
+
+#video:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+h2:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.3px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  -webkit-transition: width 0.6s ease 0s, left 0.6s ease 0s;
+  transition: width 0.6s ease 0s, left 0.6s ease 0s;
+  width: 0;
+}
+
+h2:hover:after {
+  width: 80%;
+  left: 10%;
+}
+
+h1 {
+  color: white;
+  font-size: 14px;
+}
+
+h3 {
+  font-family: "Oxygen", sans-serif;
+  color: #e9dddd;
+  font-size: 15px;
+}
+
+h5 {
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  font-size: 15px;
+  margin-left: 180px;
+}
+
+.row {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.table {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.box {
+  border-radius: 5px;
+  color: #353535;
+}
+
+p {
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+  margin: 8px;
+  color: #e9dddd;
+  font-size: 13px;
+}
+
+.back {
+  background: #353535;
+  opacity: 0.6;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.hr {
+  width: 5%;
+}
+
+/*===========================================
+AUDIO PLAYER***AUDIO PLAYER***AUDIO PLAYER***AUDIO PLAYER***
+  ===============================================*/
+.player {
+  height: 160px;
+  width: 430px;
+  background-color: #1E2125;
+  position: absolute;
+  top: 90%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.player ul {
+  list-style: none;
+}
+
+.player ul li {
+  display: inline-block;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cover img {
+  height: 160px;
+  width: 160px;
+}
+
+.info h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 180px;
+  line-height: 0;
+  font-size: 16px;
+}
+
+.info h4 {
+  margin-left: 180px;
+  line-height: 20px;
+  color: #636367;
+}
+
+.info h2 {
+  margin-left: 180px;
+  font-size: 13px;
+}
+
+.button-items {
+  margin-left: 180px;
+}
+
+#slider {
+  width: 182px;
+  height: 4px;
+  background: #151518;
+  border-radius: 2px;
+}
+
+#slider div {
+  width: 4px;
+  height: 4px;
+  margin-top: 1px;
+  background: #EF6DBC;
+  border-radius: 2px;
+}
+
+#timer {
+  color: #494B4E;
+  line-height: 0;
+  font-size: 9pt;
+  float: right;
+  font-family: Arial, Sans-Serif;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+#play {
+  padding: 0 3px;
+  width: 30px;
+  height: 30px;
+  enable-background: new 0 0 25 25;
+}
+
+#play g {
+  stroke: #FEFEFE;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+
+#play g path {
+  fill: #FEFEFE;
+}
+
+#play:hover {
+  cursor: pointer;
+}
+
+#play:hover g {
+  stroke: #e232bc;
+  cursor: pointer;
+}
+
+#play:hover g path {
+  fill: #e232bc;
+  cursor: pointer;
+}
+
+#pause {
+  enable-background: new 0 0 25 25;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  bottom: 32%;
+  right: 22%;
+  cursor: pointer;
+}
+
+#pause rect {
+  fill: white;
+}
+
+#pause:hover rect {
+  fill: #e232bc;
+}
+
+.saved {
+  text-align: left;
+}
+
+/*===========================================
+CLOUD ANIMATION***CLOUD ANIMATION***CLOUD ANIMATION***
+  ===============================================*/
+.clouds {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20%;
+  display: block;
+  background: url(images/clouds_blue.png);
+  z-index: 5;
+  -webkit-animation: move-clouds-back 500s linear infinite;
+          animation: move-clouds-back 500s linear infinite;
+}
+
+@-webkit-keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+
+.logomoving {
+  /*moving class added in jQuery/JS file*/
+  -webkit-animation: move 2s;
+          animation: move 2s;
+  -webkit-animation-direction: right;
+          animation-direction: right;
+  position: relative;
+  margin-left: auto;
+}
+
+@-webkit-keyframes move {
+  /*animation for the sliding*/
+  from {
+    left: -70%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes move {
+  /*animation for the sliding*/
+  from {
+    left: -70%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+/*===========================================
+  RESOURCES***RESOURCES***RESOURCES***RESOURCES***
+  ===============================================*/
+#accordion {
+  width: 500px;
+  margin: 0 auto;
+  font: normal normal 13px sans-serif;
+  color: black;
+  background-color: #fff;
+}
+
+#accordion h3 {
+  padding: 5px;
+  color: black;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px #4176e9;
+          box-shadow: 0 1px 2px #4176e9;
+  margin: 3px 0;
+  cursor: pointer;
+}
+
+#accordion a {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+#accordion h3:hover {
+  color: white;
+  background-color: #0077ff;
+}
+
+#accordion ul {
+  text-align: right;
+  right: 200px;
+  line-height: 1.5;
+  margin: 0 0 0 10px;
+  padding: 10px;
+  border: solid 1px #F6F6F6;
+  height: 180px;
+  color: #0077ff;
+}
+
+#accordion li {
+  right: 25%;
+  color: #333333;
+  display: block;
+}
+
+/*===========================================
+  COMMENT***COMMENT***COMMENT***COMMENT***
+  ===============================================*/
+pre {
+  font-size: 12px;
+  text-align: left;
+}
+
+.date {
+  text-align: right;
+  font-size: 10px;
+  color: grey;
+}
+
+.comment-text {
+  font-size: 12px;
+  color: black;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.shadow-none {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.name {
+  color: #007bff;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.textarea {
+  resize: none;
+}
+
+.text {
+  text-align: left;
+  color: black;
+}
+
+/*===========================================
+  BUTTONS***BUTTONS***BUTTONS***BUTTONS***
+  ===============================================*/
+.add, .add:hover, .like:hover {
+  border-color: #007bff;
+  border-radius: 5px;
+  width: 50px;
+  color: #007bff;
+}
+
+.like {
+  border-color: #007bff;
+  border-radius: 5px;
+  width: 50px;
+  color: #007bff;
+}
+
+.add:hover, .like:hover, .like:hover {
+  background-color: #dce7f8;
+}
+
+.liked {
+  text-align: center;
+  border-color: #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  width: 50px;
+}
+/*# sourceMappingURL=styles.css.map */

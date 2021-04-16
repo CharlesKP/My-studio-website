@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="In The Roof Recording Studios">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="images/house.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>In The Roof Studios Contacts</title>
+</head>
+<body>
+    <div class="footer" height="100px"></div>
+    <div class="background">
+        <a href="index.html"><img src="images/House trans.png" class="logo" alt="house logo"></a>           <!--animation for house to return to home/index page-->
+    </div>
+        <img src="images/in the roof.png" class="name" alt="in the roof studios">
+        <br>
+        <img src="images/contact.png" class="section" alt="in the roof studios">
+    <div class="mid">
+        <h3>Drop us an email!</h3>
+    <form>                                                                      <!--email form-->
+        <input class="box" id="subject" type="text" placeholder="Subject" size="15" autocomplete="off"><br>                
+           <input class="box" id="message" type="text" placeholder="Message" size="15" height="50px" autocomplete="off"><br>
+              <h3>Join our mailing list?</h3>
+                  <input type="radio" id="age1" name="mailing" value="yes" checked>
+                      <label for="yes"><h3>Yes</h3></label>
+                         <input type="radio" id="age2" name="mailing" value="no">
+                              <label for="age2"><h3>No</h3></label>
+                                   <button onclick="email()" class="btn btn-primary btn-sm">send</button>             <!--onclick sent to email function in javascript-->
+                             </form> 
+                         </div>
+    <div class="mid">
+          <h3>Share our services with your friends and family on Whatsapp:</h3>
+    <form>                                                                                  <!--whatsapp form-->
+          <input class="box" id="number" type="tel" placeholder="International Cell Number" size="19">
+          <input class="box" id="name" type="text" placeholder="Your Name" size="15">
+          <button onclick="share()" class="btn btn-primary btn-sm">share</button>                  <!--onclick sent to share/whatsapp function in javascript-->
+    </form>
+       </div>
+    </div>
+<script type="text/javascript" src="email whatsapp.js">              //import the javascript file for email and whatsapp functions, passed in from the forms
+</script>
+</body>
+</html>

@@ -7,7 +7,7 @@ It is a mockup project/website for my home studio with various offerings. It
 gives surface level insight of my career as a musician over the years.
 
 ## Table of contents
-*not required, as the readme is not lengthy
+*not required, as the readme is not lengthy*
 
 ## Installation
 *not required, as the project is a website:* https://charleskp.github.io/My-studio-website/
